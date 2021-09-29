@@ -3,5 +3,8 @@ public class Main {
         HalloJavamitForEach HJmFE = new HalloJavamitForEach();
 
         HJmFE.printList();
+
+
+        NumberTester n = new NumberTester("numbers.txt");
     }
 }
