@@ -4,17 +4,13 @@ public class MainUebung_4 {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-
-
         AbstractCalculator rational = new RationalCalculator((x, y) -> {
             double zaeler1 = x.getA();
             double nenner1 = x.getB();
             double zaeler2 = y.getA();
             double nenner2 = y.getB();
-
             double neuZaehler = zaeler1 * nenner2 +  zaeler2 * nenner1;
             double neuNenner  = nenner1 * nenner2;
-
             double m = Math.abs(neuZaehler);
             double n = Math.abs( neuNenner);
             double r;
@@ -50,7 +46,6 @@ public class MainUebung_4 {
                 m = n;
                 n = r;
             } while( n != 0);
-
             if( m > 1)
             {
                 neuZaehler /=  m;
@@ -102,28 +97,103 @@ public class MainUebung_4 {
                 r = m % n;
                 m = n;
                 n = r;
-            } while( n != 0);
-
-            if( m > 1)
-            {
-                neuZaehler /=  m;
+            } while (n != 0);
+            if (m > 1) {
+                neuZaehler /= m;
                 neuNenner /= m;
             }
-
             System.out.println("Division der Brüche ergibt " + neuZaehler + "/" + neuNenner);
             return x;
         });
+        AbstractCalculator vector = new VectorCalculator((x, y) -> {
+            double zaeler1 = x.getA();
+            double nenner1 = x.getB();
+            double zaeler2 = y.getA();
+            double nenner2 = y.getB();
 
-        AbstractCalculator vector = new RationalCalculator((x, y) -> {
+            double vektor1Erg = zaeler1 + zaeler2;
+            double vektor2Erg = nenner1 + nenner2;
+            double m = Math.abs(vektor1Erg);
+            double n = Math.abs(vektor2Erg);
+            double r;
+            do {
+                r = m % n;
+                m = n;
+                n = r;
+            } while (n != 0);
+            if (m > 1) {
+                vektor1Erg /= m;
+                vektor2Erg /= m;
+            }
+
+            System.out.println("Addition der Vektoren ergibt " + vektor1Erg + "/" + vektor2Erg);
             return x;
         }, (x, y) -> {
+            double zaeler1 = x.getA();
+            double nenner1 = x.getB();
+            double zaeler2 = y.getA();
+            double nenner2 = y.getB();
+            double vektor1Erg = zaeler1 - zaeler2;
+            double vektor2Erg = nenner1 - nenner2;
+            double m = Math.abs(vektor1Erg);
+            double n = Math.abs(vektor2Erg);
+            double r;
+            do {
+                r = m % n;
+                m = n;
+                n = r;
+            } while (n != 0);
+            if (m > 1) {
+                vektor1Erg /= m;
+                vektor2Erg /= m;
+            }
+            System.out.println("Subtraktion der Vektoren ergibt " + vektor1Erg + "/" + vektor2Erg);
             return x;
         }, (x, y) -> {
+            double zaeler1 = x.getA();
+            double nenner1 = x.getB();
+            double zaeler2 = y.getA();
+            double nenner2 = y.getB();
+            double vektor1Erg = (zaeler1 * zaeler2);
+            double vektor2Erg = (nenner1 * nenner2);
+            double m = Math.abs(vektor1Erg);
+            double n = Math.abs(vektor2Erg);
+            double r;
+            do {
+                r = m % n;
+                m = n;
+                n = r;
+            } while (n != 0);
+            if (m > 1) {
+                vektor1Erg /= m;
+                vektor2Erg /= m;
+            }
+            System.out.println("Multiplikation der Vektoren ergibt " + vektor1Erg + "/" + vektor2Erg);
             return x;
         }, (x, y) -> {
+            double zaeler1 = x.getA();
+            double nenner1 = x.getB();
+            double zaeler2 = y.getA();
+            double nenner2 = y.getB();
+            double vektor1Erg = (zaeler1 / zaeler2);
+            double vektor2Erg = (nenner1 / nenner2);
+            double m = Math.abs(vektor1Erg);
+            double n = Math.abs(vektor2Erg);
+            double r;
+            do {
+                r = m % n;
+                m = n;
+                n = r;
+            } while (n != 0);
+            if (m > 1) {
+                vektor1Erg /= m;
+                vektor2Erg /= m;
+            }
+            System.out.println("Division der Vektoren ergibt " + vektor1Erg + "/" + vektor2Erg);
             return x;
         });
-        AbstractCalculator complax = new RationalCalculator((x, y) -> {
+        AbstractCalculator complex = new ComplexCalculator((x, y) -> {
+
             return x;
         }, (x, y) -> {
             return x;
@@ -189,8 +259,54 @@ public class MainUebung_4 {
                     }
                     break;
                 case 2:
+                    bruch1 = new Number();
+                    bruch2 = new Number();
+                    System.out.println("Enter number x a> ");
+                    bruch1.setA(sint.nextDouble());
+                    System.out.println("Enter number x b>");
+                    bruch1.setB(sint.nextDouble());
+                    System.out.println("Enter number y a>");
+                    bruch2.setA(sint.nextDouble());
+                    System.out.println("Enter number y b>");
+                    bruch2.setB(sint.nextDouble());
+
+                    System.out.println("1 = add\n" +
+                            "2 = subtract\n" +
+                            "3 = multiply\n" +
+                            "4 = divide\n" +
+                            "5 = enter numbers again");
+                    int g = Integer.parseInt(s.nextLine());
+                    i = 0;
+                    switch (g) {
+                        case 1:
+                            System.out.println("________________________________\n");
+                            vector.add(bruch1, bruch2);
+                            System.out.println("\n________________________________");
+                            break;
+                        case 2:
+                            System.out.println("________________________________\n");
+                            vector.subtract(bruch1, bruch2);
+                            System.out.println("\n________________________________");
+                            break;
+                        case 3:
+                            System.out.println("________________________________\n");
+                            vector.multiply(bruch1, bruch2);
+                            System.out.println("\n________________________________");
+                            break;
+                        case 4:
+                            System.out.println("________________________________\n");
+                            vector.divide(bruch1, bruch2);
+                            System.out.println("\n________________________________");
+                            break;
+                        case 5:
+                            i = 1;
+                        default:
+                            System.out.println("Keine vorhande Zahl");
+                            break;
+                    }
                     break;
                 case 3:
+
                     break;
                 case 4:
                     System.exit(0);
@@ -199,7 +315,6 @@ public class MainUebung_4 {
                     System.out.println("Keine vorhande Zahl");
                     break;
             }
-
         }
     }
 }

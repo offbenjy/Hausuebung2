@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cf55254-46b7-41b4-98ee-d36bd322f19c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Test_OnlineClass/Bruch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Test_OnlineClass/RationalNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Uebung_2/AbstractCalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Uebung_2/CalculateOperation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Uebung_2/MainUebung_4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Uebung_2/Number.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Uebung_2/RationalCalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CalculateOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainUebung_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RationalCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="5cf55254-46b7-41b4-98ee-d36bd322f19c" name="Changes" comment="bsp4 raditional done">
+      <change afterPath="$PROJECT_DIR$/src/ComplexCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VectorCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numbers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/numbers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumberTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Uebung_2/MainUebung_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Uebung_2/MainUebung_4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainUebung_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainUebung_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RationalCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RationalCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +80,29 @@
       <option name="presentableId" value="Default" />
       <updated>1632754351757</updated>
     </task>
+    <task id="LOCAL-00001" summary="bsp4 raditional done">
+      <created>1633272089023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633272089023</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bsp4 raditional done" />
+    <option name="LAST_COMMIT_MESSAGE" value="bsp4 raditional done" />
   </component>
 </project>
