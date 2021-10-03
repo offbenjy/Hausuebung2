@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cf55254-46b7-41b4-98ee-d36bd322f19c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Test_OnlineClass/Bruch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Test_OnlineClass/RationalNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Uebung_2/AbstractCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Uebung_2/CalculateOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Uebung_2/MainUebung_4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Uebung_2/Number.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Uebung_2/RationalCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CalculateOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainUebung_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RationalCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/numbers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/numbers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Uebung_2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Uebung_2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Uebung_2/NumberTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Uebung_2/NumberTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NumberTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +24,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.base/java/lang/StrictMath.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip!/java.base/java/lang/Math.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1yj9uO0rKPjaVWCTsabYEEVW0T1" />
   <component name="ProjectViewState">
@@ -28,11 +47,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Online_Class" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MainUebung_4">
+    <configuration name="Bruch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bruch" />
+      <module name="Test_OnlineClass" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Uebung_2" />
@@ -40,8 +66,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainUebung_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainUebung_4" />
+      <module name="Uebung_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainUebung_4" />
+        <item itemvalue="Application.Bruch" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
